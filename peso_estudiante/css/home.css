@@ -1,0 +1,40 @@
+
+.main-img{
+background: url("../img/coctel.jpg");
+height:40rem;
+  background-size: cover;
+}
+.top-bar{
+  padding: 0!important;
+}
+.panel{
+  margin-top: 2rem;/*separacion de encabesado*/
+  min-height: 30rem; /*tamaño largo de columna*/
+  /* background: rgba(161, 164, 167, 0.75); con estos datos fondo gris bajito*/
+  background: rgba(161, 164, 167, 0.75);
+  border: 2px solid #fff;
+  border-radius: 1rem;
+}
+
+.chip{
+  width: 100%;
+  margin-bottom: 0.5rem;
+  }
+  .float-right{
+    float: right;
+  }
+  .texto-consulta{
+    color: rgba(0,0,0,0.6);
+  }
+  .lista-consulta{
+    list-style: circle !important;
+  }
+  .lista-consulta li{
+    list-style-type: circle;
+  }
+.collection{
+  margin-top: 2rem;
+}
+.col-categorias, .col-main{
+  height: 43rem;
+}
